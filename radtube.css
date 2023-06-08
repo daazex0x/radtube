@@ -1,0 +1,143 @@
+.bodd{
+    background-color: rgba(12,24,36,255);
+    margin: 0;
+}
+.radt{
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left: ;
+    margin-right: 60px;
+
+    
+}
+
+.logg{
+    width: 40px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+
+.top{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(21, 24, 34, 0.93);
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.top-left{
+    width: 470px;
+
+    
+}
+
+.top-center{
+    flex: 1;
+    justify-content: center;
+    max-width: 800px;
+
+}
+
+.top-right{
+    width: 190px;
+
+}
+
+
+.top-button{
+    
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(23,45,68,250);
+    border-radius: 20px;
+    color: aqua;
+    font-size: 15px;
+    transition: background-color 0.25s, padding 0.25s;          
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+.top-button:hover{
+    background-color: rgba(23,37,52,250);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.top_link{
+    text-decoration: none;
+}
+
+.search{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 400px;
+    border-radius: 20px;
+    
+}
+
+.prof{
+    margin-left: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    transition: width 0.20s, height 0.20s;
+}
+
+.prof:hover{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.home{
+    margin-left: 40px;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 80px;
+}
+
+.titl{
+    font-family: Poppins,Arial;
+    font-size: bold;
+    color: white;
+    display: block;
+    margin-top: 15px;
+    text-align:center;
+}
+
+.cover{
+    border-radius: 6%;
+    transition: opacity 0.30;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    transition: opacity 0.20s, width 0.40s;
+    cursor: pointer;
+    max-width: 200px;
+    }
+
+.cover:hover{
+    width: 200px;
+    opacity: 0.7;
+}
+
